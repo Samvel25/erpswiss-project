@@ -1,0 +1,27 @@
+{
+	"name": "appointment-booking",
+	"version": "1.0.0",
+	"description": "Appointment booking application",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack serve --mode development --open",
+		"build": "webpack --mode production"
+	},
+	"author": "Your Name",
+	"license": "ISC",
+	"devDependencies": {
+		"css-loader": "^6.7.3",
+		"file-loader": "^6.2.0",
+		"html-loader": "^4.2.0",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^2.7.6",
+		"sass": "^1.63.6",
+		"sass-loader": "^13.3.2",
+		"webpack": "^5.88.2",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1"
+	},
+	"dependencies": {
+		"node-sass": "^4.14.1"
+	}
+}
